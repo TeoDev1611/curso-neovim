@@ -1,0 +1,106 @@
+ATAJOS DE VIM Y CONFIGURACIONES PROPIAS
+
+Anotaciones:
+
+Movimiento
+
+K = Arriba
+J = Abajo
+L = Izquierda
+H = Derecha
+
+Saltar las palabras:
+
+W = Adelante
+B = Atras
+
+Salir del modo NORMAL
+
+I = Antes del cursor
+A = Después del cursor
+Shift + A = Salir al final de la linea
+j+k = Salir Del Modo NORMAL
+
+BORRAR
+
+x = Borrar letra por letra
+d+w = Borrar palabra hacia adelante 
+d+Shift+4 = Borrar todo el contenido de una linea desde el cursor  
+d+b = Borrar palabra hacia atras
+d+d = borrar linea entera y pegar en el clipboard
+p = pegar del clipboard
+
+DESHACER Y REHACER: 
+
+u = Deshacer
+Ctrl+r = rehacer
+
+REMPLAZAR:
+
+d + carácter a remplazar = error al escribir un carácter
+
+GUARDAR:
+
+NOTA: SIEMPRE MODO NORMAL
+
+:w = Guardar el archivo
+:wq = guardar y salir 
+
+NAVEGAR ENTRE ARCHIVOS:
+
+n+t = abrir nerdtree
+q+t = cerrar nerdtree
+g+d = definicion
+g+f = ir a otro archivo
+
+BUFFERS:
+
+Ctrl + O = Retroceder
+Ctrl + i = Avanzar
+
+CAMBIO:
+
+C+W = CAMBIAR PALABRA desde donde esta el cursor
+c+i+w = cambiar toda la palabra no importa donde esta el cursor
+
+INICIO DEL ARCHIVO Y FINAL DE LOS ARCHIVOS
+
+g+g= INICIO DEL ARCHIVO
+G = FINAL DEL ARCHIVO
+
+BUSCAR EN VIM
+ 
+
+"/"+LA PALABRA A BUSCAR = BUSCAR LAS PALABRAS HACIA ADELANTE DE DONDE ESTA EL CURSOR
+"?"+LA PALABRA A BUSCAR = BUSCAR LAS PALABRAS HACIA  ATRAS DE DONDE ESTA EL CURSOR
+Enter para empezar a mover despues de buscar
+n para despues de usar enter (avanzar)
+"N" para (retroceder)
+
+MOVERSE ENTRE PARENTESIS Y CORCHETES
+
+Shift+5 = MOVERSE ENTRE PARENTESIS
+
+SELECCIONAR:
+
+V Y MOVERSE CON HJKL
+
+0 = INICIO DE LA LINEA
+$ = FINAL DE LA LINEA
+
+SUSTITUIR COMANDO
+:s/PALABRA A SUSTITUIR/PALABRA NUEVA
+SUSTITUIR TODAS de donde esta el cursor :
+:s/PALABRA A SUSTITUIR/PALABRA NUEVA/g 
+SUSTITUIR TODAS DE TODO EL ARCHIVO:
+:%s/PALABRA A SUSTITUIR/PALABRA NUEVA/g
+SUSTITUIR TODAS DE TODO EL ARCHIVO PREGUNTANDO:
+:%s/PALABRA A SUSTITUIR/PALABRA NUEVA/gc
+
+INSERTAR LINEAS:
+o = linea abajo
+O = linea arriba
+COPIAR Y PEGAR:
+v = seleccionar
+y = copiar 
+p = pegar
